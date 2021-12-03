@@ -1,17 +1,27 @@
-body {
-    background-color: #DFD9E2;
-    color: #535865;
-    font-family: Tahoma, serif;
-    font-weight: 300;
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;500&display=swap');
 
+body {
+    background-color: hsl(280, 13%, 87%);
+    color: hsl(223, 10%, 36%);
+    font-family: 'Poppins', sans-serif;
+    font-weight: 300;
+}
+
+#introduction {
+    font-weight: 500;
 }
 
 h1, h2, h3 {
-    color: #865B9A;
+    color: hsl(281, 26%, 48%);
 }
 
 h1, h2 {
     text-align: center;
+}
+
+h2 {
+    text-transform: uppercase;
+    letter-spacing: 10px;
 }
 
 h1 {
@@ -19,9 +29,18 @@ h1 {
 }
 
 button {
-    background-color: #865B9A;
+    background-color: hsl(281, 26%, 48%);
+}
+
+ul li {
+    list-style: square;
 }
 
 button:hover {
     background-color: #5765fc;
+}
+
+button {
+    color: white;
+    font-size: larger;
 }
