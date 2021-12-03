@@ -1,0 +1,27 @@
+body {
+    background-color: #DFD9E2;
+    color: #535865;
+    font-family: Tahoma, serif;
+    font-weight: 300;
+
+}
+
+h1, h2, h3 {
+    color: #865B9A;
+}
+
+h1, h2 {
+    text-align: center;
+}
+
+h1 {
+    text-decoration: underline;
+}
+
+button {
+    background-color: #865B9A;
+}
+
+button:hover {
+    background-color: #5765fc;
+}
